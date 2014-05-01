@@ -1,0 +1,10 @@
+body{
+	background-image: url("img/stampede.jpg");
+	font-family: "verdana";
+}
+tr {
+	background-color: #CCC;
+	}
+table{
+	border-radius: 10px;
+}

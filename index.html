@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="file:///C|/Program%20Files/Adobe/Adobe%20Dreamweaver%20CS6/es_ES/Configuration/Third%20Party%20Source%20Code/jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="calc.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>IMC</h1>
+	</div>
+	<div data-role="content">	
+		<table width="0" border="0">
+  <tr>
+    <td>Introduce el peso:</td>
+    <td><div data-role="fieldcontain">
+      <label for="textinput"></label>
+      <input type="text" name="textinput" id="txtpeso" value="0"  />
+    </div></td>
+  </tr>
+  <tr>
+    <td>Introduce la estatura:</td>
+    <td><div data-role="fieldcontain">
+      <label for="textinput"></label>
+      <input type="text" name="textinput" id="txtesta" value="0"  />
+    </div></td>
+  </tr>
+  <tr>
+    <td>IMC:</td>
+    <td><div data-role="fieldcontain">
+      <label for="textinput"></label>
+      <input type="text" name="textinput" id="txtResul" value="0" disabled="disabled" />
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><button onClick="calcula()">Calcular</button></td>
+  </tr>
+</table>
+		
+	</div>
+	<div data-role="footer">
+		<h4>ariana vargas ruiz :)</h4>
+	</div>
+</div>
+</body>
+</html>
